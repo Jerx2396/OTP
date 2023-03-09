@@ -2,11 +2,40 @@ body{
     display: flex;
     height: 100vw;
     width: 100vw;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
     font-family: sans-serif;
+    margin: 0;
 
 }
+
+.otpcontainer{
+    height: max-content;
+    width: 100%;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30%;
+    transform: translateY(-10%);
+    padding-bottom: 20%;
+}
+
+img{
+    height: 50vw;
+    margin-top: 10%;
+}
+
+p{
+    font-size: 3vw;
+    color: #a1a1a1;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+b{
+    color: black;
+}
+
 .otpmessage{
     display: flex;
     justify-content: center;
@@ -34,13 +63,7 @@ input{
     text-align: center;
 }
 
-img{
-    height: 50vw;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    margin-top: 20%;
-    margin-bottom: 10%;
-}
+
 
 .submit{
     all: unset;
@@ -54,13 +77,5 @@ img{
     border-radius: 20px;
 }
 
-p{
-    font-size: 3.3vw;
-    color: #a1a1a1;
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
 
-b{
-    color: black;
-}
+
