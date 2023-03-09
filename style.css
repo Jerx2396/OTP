@@ -58,6 +58,7 @@ body{
         border-bottom: 2px solid black;
         font-size: 5vw;
         text-align: center;
+        margin-bottom: -5vw;
     }
     
     .submit{
