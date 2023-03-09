@@ -1,81 +1,139 @@
 body{
     display: flex;
-    height: 100vw;
+    height: 100vh;
     width: 100vw;
     justify-content: center;
     font-family: sans-serif;
     margin: 0;
-
 }
 
-.otpcontainer{
-    height: max-content;
-    width: 100%;
-    background-color: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 30%;
-    transform: translateY(-10%);
-    padding-bottom: 20%;
+@media all and (max-width: 768px){
+    .otpcontainer{
+        height: max-content;
+        width: 100%;
+        background-color: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30%;
+        transform: translateY(-10%);
+        padding-bottom: 20%;
+    }
+    
+    img{
+        height: 50vw;
+        margin-top: 10%;
+    }
+    
+    p{
+        font-size: 3vw;
+        color: #a1a1a1;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    
+    
+    .otpmessage{
+        display: flex;
+        justify-content: center;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    form div{
+        display: flex;
+        justify-content: space-evenly;
+        width: 60%;
+    }
+    
+    input{
+        all: unset;
+        width: 10%;
+        height: 10vw;
+        border-width: 0px;
+        border-bottom: 2px solid black;
+        font-size: 5vw;
+        text-align: center;
+    }
+    
+    .submit{
+        all: unset;
+        background-color: blue;
+        font-size: 3.5vw;
+        color: white;
+        font-weight: bold;
+        padding: 20px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 20px;
+    }
 }
 
-img{
-    height: 50vw;
-    margin-top: 10%;
+@media all and (min-width: 769px){
+    .otpcontainer{
+        height: 100%;
+        width: 100%;
+        background-color: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img{
+        height: 25vh;
+        margin-top: 5%;
+    }
+    p{
+        font-size: 2.3vh;
+        color: #a1a1a1;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    b{
+        color: black;
+    }
+    .otpmessage{
+        display: flex;
+        justify-content: center;
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    form div{
+        display: flex;
+        justify-content: space-evenly;
+        width: 60vh;
+    }
+    input{
+        all: unset;
+        width: 10%;
+        height: 10vh;
+        border-width: 0px;
+        border-bottom: 2px solid black;
+        font-size: 5vh;
+        text-align: center;
+    }
+    .submit{
+        all: unset;
+        background-color: blue;
+        font-size: 2.3vh;
+        color: white;
+        font-weight: bold;
+        padding: 10px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-radius: 20px;
+        cursor: pointer;
+    }
 }
 
-p{
-    font-size: 3vw;
-    color: #a1a1a1;
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-b{
-    color: black;
-}
-
-.otpmessage{
-    display: flex;
-    justify-content: center;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-form div{
-    display: flex;
-    justify-content: space-evenly;
-    width: 60%;
-}
-
-input{
-    all: unset;
-    width: 10%;
-    height: 10vw;
-    border-width: 0px;
-    border-bottom: 2px solid black;
-    font-size: 5vw;
-    text-align: center;
-}
-
-
-
-.submit{
-    all: unset;
-    background-color: blue;
-    font-size: 3.5vw;
-    color: white;
-    font-weight: bold;
-    padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 20px;
-}
 
 
 
